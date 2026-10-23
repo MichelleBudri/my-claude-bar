@@ -1,0 +1,31 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Build output
+build/
+*.app
+*.dmg
+*.zip
+
+# Python
+__pycache__/
+
+# Editors
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Local notes (not published)
+docs/
+
+# macOS
+.DS_Store
+._*

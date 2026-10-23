@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13">
+  <title>ClaudeBar preview: session usage going from 7% to 65% (yellow) to 92% (red)</title>
+  <defs>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A1F5C"/>
+      <stop offset="0.55" stop-color="#B4533A"/>
+      <stop offset="1" stop-color="#F0A35E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="760" height="250" rx="16"/></clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#frame)" fill="#F2F2F2">
+    <rect width="760" height="250" fill="url(#wallpaper)"/>
+    <rect width="760" height="250" fill="url(#glow)"/>
+
+    <rect width="760" height="30" fill="#1C1C1E" fill-opacity="0.72"/>
+    <circle cx="24" cy="15.0" r="6"/>
+    <text x="44" y="19.5" font-weight="700">Finder</text>
+    <text x="104" y="19.5">File</text>
+    <text x="140" y="19.5">Edit</text>
+    <text x="177" y="19.5">View</text>
+    <text x="219" y="19.5">Window</text>
+    <text x="612" y="19.5" fill-opacity="0.85">◐</text>
+    <rect x="636" y="10.0" width="22" height="10" rx="3" fill="none" stroke="#F2F2F2" stroke-opacity="0.85"/>
+    <rect x="638" y="12.0" width="15" height="6" rx="1.5" fill-opacity="0.85"/>
+    <text x="672" y="19.5">Qui 14:32</text>
+    <rect x="534" y="4" width="62" height="22" rx="5" fill="#fff" fill-opacity="0.16"/>
+
+    <rect x="400" y="38" width="340" height="190" rx="10" fill="#2C2C2E" fill-opacity="0.94" filter="url(#shadow)"/>
+    <rect x="400.5" y="38.5" width="339" height="189" rx="9.5" fill="none" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="418" y="120" fill="#A1A1A6">Atualizado às 14:32</text>
+    <line x1="412" y1="136" x2="728" y2="136" stroke="#fff" stroke-opacity="0.12"/>
+    <text x="418" y="160">Atualizar agora</text><text x="722" y="160" text-anchor="end" fill="#A1A1A6">⌘R</text>
+    <path d="M418,181 l3.5,3.5 l7,-8" fill="none" stroke="#F2F2F2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="436" y="186">Abrir ao iniciar sessão</text>
+    <text x="418" y="212">Sair</text><text x="722" y="212" text-anchor="end" fill="#A1A1A6">⌘Q</text>
+
+    <g opacity="1">
+      <animate attributeName="opacity" dur="7.5s" repeatCount="indefinite" keyTimes="0;0.303;0.333;0.970;1" values="1;1;0;0;1"/>
+      <path d="M548.06,15.31 L554.54,14.74 L554.12,12.70 L547.94,14.69Z M553.29,13.72 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.21,15.24 L552.29,12.59 L550.92,11.04 L547.79,14.76Z M550.56,11.82 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.30,15.10 L550.87,9.70 L548.90,9.04 L547.70,14.90Z M548.85,9.37 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.31,14.94 L548.18,10.67 L546.14,11.08 L547.69,15.06Z M546.12,10.87 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.24,14.79 L544.65,9.64 L543.09,11.02 L547.76,15.21Z M542.83,10.33 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.10,14.70 L543.49,12.39 L542.82,14.36 L547.90,15.30Z M542.12,13.38 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.94,14.69 L543.37,14.88 L543.79,16.92 L548.06,15.31Z M542.54,15.90 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.79,14.76 L542.53,18.45 L543.90,20.01 L548.21,15.24Z M542.17,19.23 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.70,14.90 L545.44,19.37 L547.41,20.03 L548.30,15.10Z M545.38,19.70 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.69,15.06 L548.12,20.80 L550.15,20.39 L548.31,14.94Z M548.09,20.60 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.76,15.21 L550.11,18.96 L551.67,17.58 L548.24,14.79Z M549.85,18.27 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.90,15.30 L552.80,17.71 L553.46,15.73 L548.10,14.70Z M552.09,16.72 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z" fill="#FFFFFF"/>
+      <text x="560" y="19.5" font-weight="600" fill="#FFFFFF">7%</text>
+      <text x="418" y="68">Sessão (5h): 7% <tspan fill="#A1A1A6">- renova em 3 horas</tspan></text>
+      <text x="418" y="94">Semanal (7 dias): 10% <tspan fill="#A1A1A6">- renova em 6 dias</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="7.5s" repeatCount="indefinite" keyTimes="0;0.303;0.333;0.637;0.667;1" values="0;0;1;1;0;0"/>
+      <path d="M548.06,15.31 L554.54,14.74 L554.12,12.70 L547.94,14.69Z M553.29,13.72 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.21,15.24 L552.29,12.59 L550.92,11.04 L547.79,14.76Z M550.56,11.82 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.30,15.10 L550.87,9.70 L548.90,9.04 L547.70,14.90Z M548.85,9.37 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.31,14.94 L548.18,10.67 L546.14,11.08 L547.69,15.06Z M546.12,10.87 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.24,14.79 L544.65,9.64 L543.09,11.02 L547.76,15.21Z M542.83,10.33 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.10,14.70 L543.49,12.39 L542.82,14.36 L547.90,15.30Z M542.12,13.38 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.94,14.69 L543.37,14.88 L543.79,16.92 L548.06,15.31Z M542.54,15.90 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.79,14.76 L542.53,18.45 L543.90,20.01 L548.21,15.24Z M542.17,19.23 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.70,14.90 L545.44,19.37 L547.41,20.03 L548.30,15.10Z M545.38,19.70 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.69,15.06 L548.12,20.80 L550.15,20.39 L548.31,14.94Z M548.09,20.60 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.76,15.21 L550.11,18.96 L551.67,17.58 L548.24,14.79Z M549.85,18.27 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.90,15.30 L552.80,17.71 L553.46,15.73 L548.10,14.70Z M552.09,16.72 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z" fill="#FFD60A"/>
+      <text x="560" y="19.5" font-weight="600" fill="#FFD60A">65%</text>
+      <circle cx="422" cy="63.5" r="5" fill="#FFD60A"/><text x="434" y="68">Sessão (5h): 65% <tspan fill="#A1A1A6">- renova em 2 horas</tspan></text>
+      <text x="418" y="94">Semanal (7 dias): 34% <tspan fill="#A1A1A6">- renova em 6 dias</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="7.5s" repeatCount="indefinite" keyTimes="0;0.637;0.667;0.970;1.000;1" values="0;0;1;1;0;0"/>
+      <path d="M548.06,15.31 L554.54,14.74 L554.12,12.70 L547.94,14.69Z M553.29,13.72 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.21,15.24 L552.29,12.59 L550.92,11.04 L547.79,14.76Z M550.56,11.82 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.30,15.10 L550.87,9.70 L548.90,9.04 L547.70,14.90Z M548.85,9.37 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.31,14.94 L548.18,10.67 L546.14,11.08 L547.69,15.06Z M546.12,10.87 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.24,14.79 L544.65,9.64 L543.09,11.02 L547.76,15.21Z M542.83,10.33 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M548.10,14.70 L543.49,12.39 L542.82,14.36 L547.90,15.30Z M542.12,13.38 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.94,14.69 L543.37,14.88 L543.79,16.92 L548.06,15.31Z M542.54,15.90 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.79,14.76 L542.53,18.45 L543.90,20.01 L548.21,15.24Z M542.17,19.23 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.70,14.90 L545.44,19.37 L547.41,20.03 L548.30,15.10Z M545.38,19.70 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.69,15.06 L548.12,20.80 L550.15,20.39 L548.31,14.94Z M548.09,20.60 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.76,15.21 L550.11,18.96 L551.67,17.58 L548.24,14.79Z M549.85,18.27 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z M547.90,15.30 L552.80,17.71 L553.46,15.73 L548.10,14.70Z M552.09,16.72 a1.04,1.04 0 1,0 2.08,0 a1.04,1.04 0 1,0 -2.08,0Z" fill="#FF453A"/>
+      <text x="560" y="19.5" font-weight="600" fill="#FF453A">92%</text>
+      <circle cx="422" cy="63.5" r="5" fill="#FF453A"/><text x="434" y="68">Sessão (5h): 92% <tspan fill="#A1A1A6">- renova em 41 minutos</tspan></text>
+      <circle cx="422" cy="89.5" r="5" fill="#FFD60A"/><text x="434" y="94">Semanal (7 dias): 58% <tspan fill="#A1A1A6">- renova em 6 dias</tspan></text>
+    </g>
+  </g>
+</svg>
